@@ -1,0 +1,10 @@
+*.class
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.rar
+*.idea
+target/
+*.iml
+*.test/
