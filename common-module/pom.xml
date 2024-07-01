@@ -7,6 +7,9 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>common-module</name>
     <description>common-module</description>
+    <modules>
+        <module>base-entity</module>
+    </modules>
     <packaging>pom</packaging>
 <!--    <properties>-->
 <!--        <java.version>1.8</java.version>-->

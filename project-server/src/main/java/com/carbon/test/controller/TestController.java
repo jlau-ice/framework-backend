@@ -1,5 +1,6 @@
 package com.carbon.test.controller;
 
+import com.carbon.test.entity.Student;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -27,6 +28,13 @@ public class TestController {
             throw new RuntimeException(e);
         }
         return null;
+    }
+
+    @PostMapping("/stu")
+    public String stu() {
+        Student student = new Student();
+        student.setId(1L);
+        return student.toString();
     }
 }
 
